@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   padding: auto; 
+   background-color: #DCBFFF;
+
+}
+h1{
+    text-align: center;
+}
+.id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+   background-color: yellow;
+   color: 2px black;
+   width: 135px;
+   height: 30px;
+   border-radius: 50%;
+}
+button:hover{
+      background-color: red;
+}
+
+.parentcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    min-width:200px;
+    min-height: 200px;
+    border: 2px solid black;
+}
